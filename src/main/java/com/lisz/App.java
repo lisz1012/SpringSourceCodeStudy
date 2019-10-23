@@ -34,8 +34,8 @@ public class App {
     public void test2() {
 		UserController userController = new UserController();
 		Class<? extends UserController> clazz = userController.getClass();
-		Field[] declaredFields = clazz.getFields();
-		Arrays.asList(declaredFields).stream().forEach(System.out::println);
+		Field[] fields = clazz.getFields();
+		Arrays.asList(fields).stream().forEach(System.out::println);
 		// 打印结果：
 		// 
 	}
