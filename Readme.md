@@ -20,8 +20,9 @@ BeanFactoryPostProcessor在bean实例化之前执行，之后实例化bean（调
 初始化方法的执行顺序是，先执行afterPropertiesSet，再执行init-method  
 
 BeanFactory是spring的根接口。每个接口都是不同的功能；多个借口在一起的时候，这个接口就有了其他接口的性质。BeanFactory就是个注册中心，就是保存信息的地方，其他组件统一获取  
-什么是DI/IOC？依赖注入和控制反转，太简单，不说了。什么是AOP？Aspect Oriented Programming，实现原理是什么？反射 + 动态代理。在spring中是如何实现的？BeanPostProcessor  
+什么是DI/IOC？依赖注入和控制反转，太简单，不说了。什么是AOP？Aspect Oriented Programming，实现原理是什么？反射 + 动态代理。在spring中是如何实现的？BeanPostProcessor（运行期增强）  
+编译期增强：aspectJ lombok； 
 
-prototype的bean不会被放入实例化对象池，每次都new新的（不缓存）
+prototype的bean不会被放入实例化对象池，每次都new新的（不缓存）；其他两种scope：request和session很少用到  
 
 https://blog.csdn.net/caihaijiang/article/details/35552859
