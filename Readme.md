@@ -24,6 +24,9 @@ BeanFactory是spring的根接口。每个接口都是不同的功能；多个借
 编译期增强：aspectJ lombok； 
 
 prototype的bean不会被放入实例化对象池，每次都new新的（不缓存）；其他两种scope：request和session很少用到  
-关注一下FeignClientFactoryBean, FeignClientsConfiguration, FeignClientRegistrar,这三个spring-cloud-openfeign的类
+关注一下FeignClientFactoryBean, FeignClientsConfiguration, FeignClientRegistrar,这三个spring-cloud-openfeign的类  
+
+不要因为技术而技术，要明白为什么要有这个技术，技术的原理，因该怎么用这个技术  
+拿着天使投资花在营销上
 
 https://blog.csdn.net/caihaijiang/article/details/35552859
