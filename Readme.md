@@ -27,6 +27,12 @@ prototype的bean不会被放入实例化对象池，每次都new新的（不缓�
 关注一下FeignClientFactoryBean, FeignClientsConfiguration, FeignClientRegistrar,这三个spring-cloud-openfeign的类  
 
 不要因为技术而技术，要明白为什么要有这个技术，技术的原理，因该怎么用这个技术  
-拿着天使投资花在营销上
+拿着天使投资花在营销上，会赚的更多。很多人（中国）就在做营销，手段极其残忍。比如陌陌这个app，有正规渠道可以获知他：  
+1. CCTV广告，陌陌让具有相同爱好的人聚在一起（其实就是解决一个晚上的问题，也可以让兴趣相同的人聚在一起）  
+2. 百度买关键字排名  
+3. 找微博大V给钱推广  
+4. 制造话题营销   
+已经从单纯关注流量转向了关注VIP用户和赚会员费  
+更多的人下载使用服务，这就带来了高并发的问题  
 
 https://blog.csdn.net/caihaijiang/article/details/35552859
