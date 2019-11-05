@@ -26,4 +26,6 @@ BeanFactory是spring的根接口。每个接口都是不同的功能；多个借
 prototype的bean不会被放入实例化对象池，每次都new新的（不缓存）；其他两种scope：request和session很少用到  
 关注一下FeignClientFactoryBean, FeignClientsConfiguration, FeignClientRegistrar,这三个spring-cloud-openfeign的类  
 
+从BeanFacrory中getBean的时候，如果传进去的是getBean("&beanName");则返回创建该bean的工厂，而不是bean本身，详见BeanFactory接口源码  
+
 https://blog.csdn.net/caihaijiang/article/details/35552859
