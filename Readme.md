@@ -27,5 +27,7 @@ prototype的bean不会被放入实例化对象池，每次都new新的（不缓�
 关注一下FeignClientFactoryBean, FeignClientsConfiguration, FeignClientRegistrar,这三个spring-cloud-openfeign的类  
 
 从BeanFacrory中getBean的时候，如果传进去的是getBean("&beanName");则返回创建该bean的工厂，而不是bean本身，详见BeanFactory接口源码  
+FactoryBean接口，注入的时候注入的不是这个Factory而是他生产出来的东西
+ProxyFactoryBean，生产代理Bean的。BeanNameAutoProxyCreator
 
 https://blog.csdn.net/caihaijiang/article/details/35552859
