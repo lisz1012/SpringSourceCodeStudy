@@ -32,7 +32,7 @@ ProxyFactoryBean，生产代理Bean的。BeanNameAutoProxyCreator
 
 看一下PropertySourcesPlaceholderConfigurer类，加载@Values等 BeanDefinitionVisitor，ConfigurableEnvironment， Environment， Profile  
 
-AbstractApplicationContext的prepareRefresh();这里打断点
+AbstractApplicationContext的prepareRefresh();这里打断点 StandardEnvironment。
 
 接口隔离：一个接口有A，B两个功能，把它拆成A，B两个接口，然后总接口来继承A和B
 
